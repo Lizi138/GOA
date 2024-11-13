@@ -1,11 +1,11 @@
-# 1
+#1
 greeting = "Hello"
 userName = "student"
 age = 20
 location = "New York"
 
 #2
-print("Welcome", + "username" + "!" ) 
+print("Welcome", + userName + "!" ) 
 print("greeting + ", " + username + !") 
 
 #3
