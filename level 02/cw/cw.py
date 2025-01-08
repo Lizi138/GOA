@@ -1,1 +1,2 @@
-#cw არ არის
+print("LIZI")
+print("MCHEDLIDZE")
