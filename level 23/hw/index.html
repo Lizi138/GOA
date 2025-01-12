@@ -1,0 +1,132 @@
+<!-- თუ გვიდა, რომ საიტზე დავამატოთ აუდიო, მაშინ უნდ გამოვიყენოთ
+ controls თეგი -->
+ <!-- audio - გამოიყენება იმისათვის, რომ კოდში დამატდეს აუდიო 
+  ფაილი, ხოლო controls, საიტზე დამატდეს აუდიო ფაილი -->
+  <!-- src - ჩაშენდეს საიტზე რაიმე ლინკი
+   type - აუდიო ან ვიდეო ფაილის დასახელება, ანუ რა ტიპის ფაილია ის
+   controls - დაემატოს კონტროლები, მაგალითად დაპაზუება/ჩართვა, ხმის აწევა/დაწევა და ა.შ
+   autoplay - ვიდეოს ან აუდიოს თვით ჩართვა
+   loop - ვიდეოს ან აუდიოს ახლიდან დაწყება
+   muted - ვიდეოს ან აუდიოს ხმის გარეშე დამატება -->
+   <!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ვებსაიტი</title>
+</head>
+<body>
+
+<header>
+    <h1>ვებსაიტი</h1>
+</header>
+
+<nav>
+    <a href="#home">მთავარი</a>
+    <a href="#about">ჩვენ შესახებ</a>
+    <a href="#services">მომსახურებები</a>
+    <a href="#contact">კონტაქტი</a>
+</nav>
+
+<main>
+    <h2>ჩვენი შეთავაზებები</h2>
+
+    <p>ეს არის ვებსაიტი, რომელიც შეიცავს სხვადასხვა ელემენტებს.</p>
+
+    <h3> სია 1:</h3>
+    <ol>
+        <li>პუნქტი 1</li>
+        <li>პუნქტი 2</li>
+        <li>პუნქტი 3</li>
+    </ol>
+
+    <h3> სია 2:</h3>
+    <ul>
+        <li>პუნქტი A</li>
+        <li>პუნქტი B</li>
+        <li>პუნქტი C</li>
+    </ul>
+    <hr>
+
+    <h3>სურათები:</h3>
+    <img src="https://via.placeholder.com/150" alt="სურათი 1">
+    <img src="https://via.placeholder.com/150" alt="სურათი 2">
+    <img src="https://via.placeholder.com/150" alt="სურათი 3">
+    <img src="https://via.placeholder.com/150" alt="სურათი 4">
+    <img src="https://via.placeholder.com/150" alt="სურათი 5">
+    <img src="https://via.placeholder.com/150" alt="სურათი 6">
+    <img src="https://via.placeholder.com/150" alt="სურათი 7">
+    <img src="https://via.placeholder.com/150" alt="სურათი 8">
+    <img src="https://via.placeholder.com/150" alt="სურათი 9">
+    <img src="https://via.placeholder.com/150" alt="სურათი 10">
+
+    <br><br>
+
+    <hr>
+
+    <h3>ვიდეო:</h3>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        video not supported
+    </video>
+
+    <br><br>
+
+    <h3>აუდიო:</h3>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        video not supported
+    </audio>
+    
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mp3">
+        video not supported
+    </audio>
+
+    <br><br>
+
+    <h3>ფორმა:</h3>
+    <form action="#">
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">ელ. ფოსტა:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="age">წელი:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="gender">სქესი:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">კაცი</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">ქალი</label><br><br>
+
+        <label for="country">ქვეყანა:</label>
+        <select id="country" name="country">
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="uk">გაერთიანებული სამეფო</option>
+        </select><br><br>
+
+        <input type="submit" value="დადასტურება">
+    </form>
+
+    <br><br>
+
+   
+
+    <h3>ჩამოსაშლელი მენიუ:</h3>
+    <select>
+        <option value="item1">დარწმუნებული ვარ ყველაფერიში</option>
+        <option value="item2">დარწმუნებული არ ვარ ყველაფერში</option>
+        <option value="item3">არ ვიცი</option>
+    </select>
+</main>
+
+<footer>
+    <p><a href="./index.html">დაბრუნება დასაწყისში</a></p>
+</footer>
+
+</body>
+</html>
