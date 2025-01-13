@@ -10,6 +10,6 @@ else:
 word = input("Is the person a student?: ")
 
 if word == "yes":
-    is_student = True
+   print("You're Student")
 else:
-    is_student = False
+   print("You're not Student")
