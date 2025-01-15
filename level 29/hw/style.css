@@ -1,0 +1,12 @@
+h1, p, button {
+    color: #333;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: navajowhite;
+}
+
+
