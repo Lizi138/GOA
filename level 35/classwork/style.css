@@ -1,0 +1,84 @@
+/* 1 */
+#p1 {
+    color: #FF6247; 
+    background-color: #F0F8FF; 
+}
+
+#p2 {
+    color: #4682B4;
+    background-color: #FFD700; 
+}
+
+#p3 {
+    color: #8A2BE2; 
+    background-color: #230098; 
+}
+
+#p4 {
+    color: #32CD32; 
+    background-color: #00c3ff; 
+}
+
+#p5 {
+    color: #DC143C; 
+    background-color: #E0FFFF; 
+}
+
+#p6 {
+    color: #00CED1; 
+    background-color: #eeff00; 
+}
+
+#p7 {
+    color: #A52A2A; 
+    background-color: #6fab8d; 
+}
+
+#p8 {
+    color: #D2691E; 
+    background-color: -#FFFACD;
+}
+
+#p9 {
+    color: #B22222;
+    background-color: #FFFAF0; 
+}
+
+#p10 {
+    color: #8B0000;
+    background-color: #FAEBD7; 
+}
+
+
+/* 2 */
+#div1 {
+    width: 400px;
+    height: 400px;
+    background-color: #8B0000;
+}
+
+#div2 {
+    width: 200px;
+    height: 100px;
+    background-color: #32CD32;
+}
+
+#div3 {
+    width: 50px;
+    height: 100px;
+    background-color: #230098;
+}
+
+
+/* 3 */
+#parent-div {
+    width: 50%;
+    height: 500px;
+    background-color: lightblue;
+}
+
+#child-div {
+    width: 20%;
+    height: 100px;
+    background-color: lightcoral;
+}

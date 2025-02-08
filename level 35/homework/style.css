@@ -1,0 +1,46 @@
+.parent-div {
+    width: 1000px;
+    height: 1000px;
+    background-color: #008000; 
+}
+.child-div {
+    width: 20%;
+    height: 15%;
+    background-color: #000000; 
+}
+
+.div-block {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.block-1 { 
+    background-color: #27100d; 
+} 
+.block-2 {
+    background-color: #46b46e;
+} 
+.block-3 {
+    background-color: #404440; 
+} 
+.block-4 {
+    background-color: #151306; 
+} 
+.block-5 { 
+    background-color: #8fa4cc; 
+} 
+.block-6 {
+    background-color: #00FFFF; 
+}
+.block-7 {
+    background-color: #853b2045; 
+} 
+.block-8 {
+    background-color: #bbff00; 
+} 
+.block-9 {
+    background-color: #333535; 
+} 
+.block-10 { 
+    background-color: #400c16; 
+} 
