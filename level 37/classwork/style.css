@@ -1,0 +1,15 @@
+p1 {
+    text-shadow: 5px -5px 5px black;
+}
+
+#p10 {
+    text-decoration: underline;
+}
+
+#p11 {
+    text-decoration: line-through;
+}
+
+#p12 {
+    text-decoration: overline;
+}
