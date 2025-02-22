@@ -1,0 +1,84 @@
+#h1 {
+    color: aqua;
+    text-shadow: 15px -12px 7px;
+}
+
+#h2 {
+    color: rgb(223, 223, 223);
+    text-decoration: underline;
+    text-shadow: 15px -12px 7px;
+}
+
+body {
+    background-color: #00000077;
+}
+
+#h3 {
+    color: blanchedalmond;
+}
+
+#h4 {
+    color: rgb(104, 67, 67);
+}
+
+#h5 {
+    color: aquamarine;
+    text-shadow: 15px -12px 7px;
+}
+
+#h6 {
+    color: darkgreen;
+}
+
+#h7 {
+    color: dodgerblue;
+}
+
+#h8 {
+    color: bisque;
+}
+
+#h9 {
+    color: bisque;
+    text-align: center;
+}
+
+#h10 {
+    text-align: center;
+    color: palegreen;
+}
+
+#h11 {
+    color: rgb(118, 27, 141);
+    text-align: center;
+}
+
+.img1 {
+    float: left; margin-right: 60px;
+}
+
+#img3 {
+    float: right
+}
+
+#h12 {
+    color: darkblue;
+    text-align: center;
+}
+
+#h13 {
+    color: plum;
+}
+
+#h14 {
+    color: khaki;
+}
+
+#h15 {
+    color: rgb(16, 78, 139);
+}
+
+#h0 {
+    color: whitesmoke;
+    text-align: center;
+}
