@@ -1,0 +1,9 @@
+a:hover {
+    font-size: 20px;
+    color: green;
+}
+
+a:active {
+    font-size: 20px;
+    color: green;
+}

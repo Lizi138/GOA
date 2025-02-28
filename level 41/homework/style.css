@@ -1,0 +1,17 @@
+a {
+    color: #fb0c0c; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-style: italic; 
+    text-transform: uppercase; 
+}
+
+a:visited {
+    color: #9c7dd1; 
+}
+
+a:hover {
+    color: #8d8d8d; 
+    text-decoration: underline; 
+    background-color: #000000; 
+}
