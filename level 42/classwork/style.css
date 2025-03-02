@@ -1,0 +1,16 @@
+a {
+    color: #0000FF; 
+    text-decoration: underline; 
+}
+
+a:hover {
+    color: #FF6347;
+    text-decoration: overline;
+}
+
+
+a:visited {
+    background-color: #D3D3D3; 
+    font-style: italic; 
+    font-family: 'Arial', sans-serif;  
+    font-weight: bold; }
