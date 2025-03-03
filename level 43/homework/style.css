@@ -1,0 +1,78 @@
+#table1, #table1 th, #table1 td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#table1 th {
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+
+#table1 tr:nth-child(odd) {
+    background-color: rgb(230, 225, 225);
+}
+
+#table2, #table2 th, #table2 td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#table2 th {
+    color: white;
+    background-color: green;
+}
+
+#table2 tr:nth-child(odd) {
+    background-color: rgb(230, 225, 225);
+}
+
+#table3, #table3 th, #table3 td {
+    border: 1px solid black;
+    text-align: center;border-collapse: collapse;
+}
+
+#table3 th {
+    color: white;
+    background-color: rgb(8, 67, 149);
+}
+
+#table3 tr:nth-child(odd) {
+    background-color: rgb(230, 225, 225);
+}
+
+#table4 {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#table4 th {
+    background-color: rgb(239, 217, 23);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#ul-1 li:nth-child(even) {
+    background-color: #de8c8c; 
+}
+
+ul li:nth-child(3) {
+    color: #92200c; 
+}
+
+#ul-3 {
+    list-style: none;
+    margin-right: 32px;
+}
+
+#ul-3 li {
+    background-image: url(snapchat\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+ul li:first-child, ul li:last-child {
+    font-weight: bold;
+}

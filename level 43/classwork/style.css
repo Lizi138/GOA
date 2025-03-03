@@ -1,0 +1,41 @@
+#table1 {
+    border: solid 1px green;
+}
+
+#table1, #table1 th, #table1 td {
+    border: 1px solid green;
+}
+
+#table1 tr:nth-child(even) {
+    background-color: wheat;
+}
+
+#table1 tr:nth-child(1) {
+    background-color: darkgreen;
+    color: white;
+}
+
+#table1 tr:nth-child(3), #table1 tr:nth-child(5) {
+    background-color: gray;
+}
+
+#table2 {
+    border: 1px solid rgb(4, 125, 121);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table2 tr:nth-child(1) {
+    background-color: rgb(4, 125, 121);
+    color: white;
+}
+
+#table2 tr:nth-child(3) {
+    background-color: rgb(114, 110, 110);
+    color: rgb(4, 125, 121);
+}
+
+#ul-1 {
+    list-style-position: inside;
+    list-style: circle;
+}
