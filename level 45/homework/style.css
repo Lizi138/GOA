@@ -1,0 +1,53 @@
+#my-div {
+    padding: 20px; /* Adds 20px padding on all sides */
+    border: 2px solid #a02323; /* Adds a border to the div */
+}
+
+#div-block {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border: 2px solid #000;
+}
+
+#div-3 {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+p {
+    margin: 10px 20px 30px 40px; 
+    border: solid black;
+}
+
+#b1 {
+    padding: 10px 20px;  
+    border: 2px solid #9a2424;
+    background-color: #f0f0f0; 
+    font-size: 16px;  
+}
+
+ul {
+    list-style-type: none; 
+    border: #000 solid;
+}
+
+#li1, #li2, #li3, #li4 {
+    margin-bottom: 10px; 
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(41, 60, 67);
+    margin-bottom: 50px;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4, 101, 41);
+    margin-top: -100px; 
+}
