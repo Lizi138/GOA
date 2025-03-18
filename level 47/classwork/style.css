@@ -1,0 +1,22 @@
+#div-1 {
+    color: red;
+    padding: 10px 20px 5px 35px;
+    border: solid black 10px;
+    margin: 10px 20px 15px 30px;
+}
+
+#div-2 {
+    border: solid blue 3px;
+    width: 200px;
+}
+
+#div-3, #div-4, #div-5 {
+    border: 10px solid red;
+    border-radius: 50%;
+    height: 400px;
+}
+
+img {
+    border-bottom: 20px solid red;
+    border-left: 20px solid red;
+}
