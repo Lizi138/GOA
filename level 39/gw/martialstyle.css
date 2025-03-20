@@ -1,0 +1,13 @@
+body {
+    background-color: blueviolet;
+    color: rgb(0, 255, 115);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+h1 {
+    text-shadow: 12px -12px 8px red;
+}
