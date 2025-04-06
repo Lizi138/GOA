@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
+body {
+    background-color: rgb(214, 191, 191);
+}
+
+#h1-1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: blue;
+}
+
+#h3-3 {
+    text-align: center;
+    text-decoration: solid black underline;
+    font-weight: 700;font-size: 26px;
+}
+
+#cr7 {
+    width: 300px;
+    border: 5px solid red;
+}
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+#h1-2 {
+    text-align: center;
+    color: red;
+}
+
+#h3-2 {
+    text-align: center;
+    text-decoration: solid underline white;
+    font-size: 30px;
+}
+
+#h3-3 {
+    color: blue;
+}
+
+#h3-4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#cr7img {
+    border: #666 solid 25px;
+    width: 500px;
+}
+
+#cr7img2 {
+    border: #666 solid 25px;
+    width: 490px;
+    float: right;
+}
+
+#cr7img3 {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    right: 590px;
+}
+
+#a2 {
+    color: #090909;
+    font-size: 40px;
+}
+
+#h1-3 {
+    color: #666;
+}
+
+#h1-4 {
+    color: darkslateblue;
+}
+
+#h1-5 {
+    color: blueviolet;
+}
+
+#h1-6 {
+    color: #e8e8e8;
+}
+
+#h1-7 {
+    color: brown;
+}
+
+#h3-5 {
+    color: rgb(131, 14, 14);
+    font-size: 25px;
+}
+
+#h3-6 {
+    color: rgb(88, 80, 33);
+    font-size: 25px;
+}
+
+#h3-7 {
+    color: rgb(48, 125, 48);
+    font-size: 25px;
+}
+
+#h1-8 {
+    text-align: center;
+    text-decoration: underline white 3px;
+    color: rgb(18, 114, 114);
+}
+
+#messi-button {
+    position: absolute;
+    right: 750px;
+}
+
+#beligol-button {
+    position: absolute;
+    right: 1092px;
+}
+
+#h3-8 {
+    color: darkslategrey;
+    font-size: 25px;
+}
+
+#h1-9 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#h3-9 {
+    text-align: center;
+    color: rgb(125, 36, 36);
+    font-size: 20px;
+    text-align: left;
+}
+
+#beligol-img {
+    width: 800px;
+}
+
+#h1-10 {
+    text-align: center;
+    color: rgb(42, 90, 74);
+}
+
+#h3-10 {
+    color: rgb(89, 67, 40);
+}
+
+#messi-img2 {
+    width: 740px;
+}
+
+#ney-button {
+    position: absolute;
+    right: 1400px;
+}
+
+#ney-img {
+    width: 840px;
+}
+
+#ney-img3 {
+    width: 820px;
+    float: right;
+}
+
+#h1-11 {
+    text-align: center;
+    color: darkred;
+}
+
+#h3-11 {
+    color: crimson;
+}
+
+#mbappe-button {
+    position: absolute;
+    right: 380px;
+}
+
+#h1-12 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#h3-12 {
+    color: rgb(150, 108, 29);
+}
+
+#mbappe-img {
+    width: 830px;
+}
+
+#mbappe-img2 {
+    width: 760px;
+}
+
+#h1-13 {
+    text-align: center;
+    color: indigo;
+}
+
+#h3-13 {
+    color: #ac0000;
+}
+
+#lamine-img {
+    width: 1060;
+}
+
+#yamal-button {
+    position: absolute;
+    right: 40px;
+}
+
+#kvara-button {
+    position: absolute;
+    bottom: -500px;
+    left: -10px;
+}
+
+#h1-14 {
+    text-align: center;
+    color: red;
+}
+
+#h3-14 {
+    color: rgb(0, 0, 0);
+}
+
+#kvara-img {
+    width: 740px;
+}
+
+#kvara-img2 {
+    width: 740px;
+}
+
+#vini-button {
+    position: absolute;
+    bottom: -500px;
+    left: 335px;
+}
+
+#h1-15 {
+    text-align: center;
+    color: rgb(119, 112, 112);
+}
+
+#h3-15 {
+    color: aquamarine;
+}
+
+#vini-img {
+    width: 750px;
+}
+
+#vini-img2 {
+    width: 750px;
+}
+
+#belligol-body {
+    background-color: rgb(150, 136, 136);
+}
+
+#kvara-body {
+    background-color: rgb(205, 190, 205);
+}
+
+#cr7-body {
+    background-color: chocolate;
+}
+
+#vini-body {
+    background-color: rgb(178, 155, 111);
+}
+
+#leo-body {
+    background-color: rgb(143, 143, 205);
+}
+
+#mbappe-body {
+    background-color: rgb(216, 241, 56);
+}
+
+#yamal-body {
+    background-color: rgb(199, 245, 154);
+}
+
+#ney-body {
+    background-color: darkkhaki;
+}
+
+#raphinha-button {
+    position: absolute;
+    top: 1500px;
+    right: 1130px;
+}
+
+#h3-16 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#h1-16 {
+    text-align: center;
+    color: #ac0000;
+}
+
+#h1-17 {
+    text-align: center;
+    color: rgb(78, 163, 135);
+}
+
+#h3-17 {
+    text-align: center;
+    color: rgb(76, 101, 148);
+    font-size: 25px;
+}
+
+#rodrygo-body {
+    background-color: rgb(8, 29, 37);
+}
+
+#raphinha-img {
+    width: 890px;
+}
+
+#raphinha-img2 {
+    width: 850px;
+}
+
+#raphinha-body {
+    background-color: rgb(169, 187, 203);
+}
+
+#rodrygo-button {
+    position: absolute;
+    top: 1500px;
+    right: 800px;
+}
+
+#modric-button {
+    position: absolute;
+    top: 1500px;
+    right: 500px;
+}
+
+#h1-18 {
+    text-align: center;
+    color: #666;
+}
+
+#h3-18 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(119, 86, 2);
+}
+
+#modric-img {
+    width: 900px;
+}
+
+#modric-img2 {
+    width: 860px;
+}
+
+#rodrygo-img {
+    width: 900px;
+}
+
+#rodrygo-img2 {
+    width: 900px;
+}
+
+#pedri-button {
+    position: absolute;
+    top: 1500px;
+    right: 200px;
+}
+
+#pedri-body {
+    background-color: rgb(126, 96, 154);
+}
+
+#h1-19 {
+    text-align: center;
+    color: white;
+}
+
+#h3-19 {
+    color: white;
+}
+
+#pedri-img {
+    width: 900px;
+}
+
+#pedri-img2 {
+    width: 900px;
+}
+
+#kroos-button {
+    position: absolute;
+    top: 1600px;
+    left: 20px;
+}
+
+#kroos-body {
+    background-color: darkolivegreen;
+}
+
+#h1-20 {
+    text-align: center;
+    color: white;
+}
+
+#h3-20 {
+    color: white;
+}
+
+#kroos-img2 {
+    width: 800px;
+}
+
+#rodri-button {
+    position: absolute;
+    top: 1600px;
+    left: 300px;
+}
+
+#h1-21 {
+    text-align: center;
+    color: #666;
+}
+
+#h3-21 {
+    color: darkblue;
+}
+
+#rodri-body {
+    background-color: chocolate;
+}
+
+#rodri-img {
+    width: 900px;
+}
+
+#rodri-img2 {
+    width: 950px;
+}
+
+#halland-button {
+    position: absolute;
+    top: 1600px;
+    left: 550px;
+}
+
+#h1-22 {
+    text-align: center;
+    color: white;
+}
+
+#h3-22 {
+    text-align: center;
+    color: white;
+}
+
+#halland-body {
+    background-color: rgb(86, 16, 86);
+}
+
+#halland-img {
+    width: 900px;
+}
+
+#halland-img2 {
+    width: 900px;
+}
+
+#h1-23 {
+    text-align: center;
+    color: purple;
+}
+
+#nico-button {
+    position: absolute;
+    top: 1600px;
+    left: 870px;
+}
+
+#h3-23 {
+    text-align: center;
+}
+
+#nico-body {
+    background-color: white;
+}
+
+#nico-img {
+    width: 900px;
+}
+
+#nico-img2 {
+    width: 900px;
+}
+
+#kane-button {
+    position: absolute;
+    top: 1600px;
+    left: 1190px;
+}
+
+#kane-body {
+    background-color: rgb(82, 144, 82);
+}
+
+#h1-24 {
+    text-align: center;
+    color: white;
+}
+
+#h3-24 {
+    color: white;
+}
+
+#kane-img {
+    width: 900px;
+}
+
+#kane-img2 {
+    width: 850px;
+}
+
+#leao-button {
+    position: absolute;
+    top: 1600px;
+    left: 1500px;
+}
+
+#leao-body {
+    background-color: rgb(213, 94, 94);
+}
+
+#h1-25 {
+    text-align: center;
+    color: white;
+}
+
+#h3-25 {
+    color: white;
+}
+
+#leao-img {
+    width: 900px;
+}
+
+#leao-img2 {
+    width: 900px;
+}

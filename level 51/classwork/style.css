@@ -1,0 +1,58 @@
+#div1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#div2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#div3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#div4 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+
+#div5 {
+    background-color: gray;
+    position: absolute;
+    right: 190px;
+    top: 450px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+
+#main-div {
+    width: 1000px;
+    height: 750px;
+    background-image: url(inspirational-motivational-dark-simple-background-black-background-hd-wallpaper-preview.jpg);
+    background-size: cover;
+}
