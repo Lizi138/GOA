@@ -1,0 +1,47 @@
+img:hover {
+    transform: scale(1.2); 
+}
+
+button:active {
+    transform: rotate(45deg); 
+}
+
+div:hover {
+    transform: translateX(50px); 
+}
+
+#icon {
+    animation: rotate 2s; 
+}
+
+#card:hover {
+    transform: scale(0.95);
+}
+
+.modal {
+    transform: translateY(100%);
+}
+
+#loading {
+    animation: spin 3s;
+}
+
+#tool {
+    transform: scale(1.23);
+}
+
+#background-image {
+    background-size: 100%; 
+}
+
+#background-image:hover {
+    background-size: 105%; 
+}
+
+#text-element {
+    transform: rotate(0deg); 
+}
+
+#text-element {
+    transform: rotate(180deg); 
+}
