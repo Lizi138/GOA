@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+    <button id="bb1"  onclick="greet()">Click Me</button>
+    <h1 id="heading1">Hello there!</h1>
+    <script>
+        function greet() {
+            let h1 = document.getElementById("heading1")
+            h1.style.textAlign = "center"
+        }
+    </script>
+    <!-- 2 -->
+    <h1 id="main-heading" onclick="click()">Hello Wolrd!</h1>
+    <script>
+        function click() {
+            let h1 = document.getElementById("main-heading");
+            h1.style.fontSize = "50px";
+            h1.style.textAlign = "center";
+            h1.style.fontWeight = "900";
+            h1.style.color = "green";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>კონტაქტი</title>
+<style>
+    body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(-45deg, #f8b195, #f67280, #c06c84, #6c5b7b);
+    background-size: 1000% 1000%;
+    animation: moveBG 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+    @keyframes moveBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+    }
+
+    header {
+    background-color: rgba(255,255,255,0.9);
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+
+    nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    }
+
+    nav a:hover {
+    background-color: #eee;
+    }
+
+    main {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .contact-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    }
+
+    .contact-box h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    }
+
+    .contact-box p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    }
+
+    .info-section {
+    margin-top: 30px;
+    text-align: left;
+    }
+
+    .info-section h3 {
+    margin-bottom: 10px;
+    }
+
+    .info-section ul {
+    list-style: square;
+    padding-left: 20px;
+    }
+
+    footer {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+
+    footer a {
+    color: #9cf;
+    text-decoration: none;
+    }
+</style>
+</head>
+<body>
+<header>
+    <nav>
+    <a href="index.html">მთავარი</a>
+    <a href="about.html">ჩვენს შესახებ</a>
+    <a href="contact.html">კონტაქტი</a>
+    </nav>
+</header>
+
+<main>
+    <div class="contact-box">
+    <h1>დაგვიკავშირდით</h1>
+    <p>თუ გაქვთ კითხვები, შემოთავაზებები ან პრობლემები — მოგვწერეთ. ჩვენი გუნდი მზად არის დაგეხმაროთ ნებისმიერ საკითხში!</p>
+
+    <div class="info-section">
+        <h3>საკონტაქტო ინფორმაცია</h3>
+        <ul>
+        <li>ტელეფონი: +995 599 123 456</li>
+        <li>ელ.ფოსტა: info@example.com</li>
+        <li>Facebook გვერდი: <a href="#">facebook.com/examplepage</a></li>
+        <li>Instagram: <a href="#">instagram.com/example</a></li>
+        <li>მისამართი: თბილისი, საქართველო</li>
+        </ul>
+    </div>
+
+    <div class="info-section">
+        <h3>სამუშაო საათები</h3>
+        <ul>
+        <li>ორშაბათი - პარასკევი: 09:00 - 18:00</li>
+        <li>შაბათი: 10:00 - 14:00</li>
+        <li>კვირა: დასვენების დღე</li>
+        </ul>
+    </div>
+
+    <div class="info-section">
+        <h3>დამატებითი არხები</h3>
+        <ul>
+        <li>Viber, WhatsApp მხარდაჭერა</li>
+        <li>ონლაინ ჩატი საიტზე</li>
+        </ul>
+    </div>
+    </div>
+</main>
+
+<footer>
+    <p>საკონტაქტო ნომერი: +995 599 123 456</p>
+    <p>Facebook: <a href="#">facebook.com/examplepage</a></p>
+    <p>ლოკაცია: თბილისი, საქართველო</p>
+    <p>ელ. ფოსტა: info@example.com</p>
+</footer>
+</body>
+</html>

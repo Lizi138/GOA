@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <nav>
+    <a href="index.html">მთავარი</a>
+    <a href="about.html">ჩვენს შესახებ</a>
+    <a href="contact.html">კონტაქტი</a>
+    </nav>
+</header>
+
+<main>
+    <div class="line"></div>
+    <h2>საინფორმაციო ფორმა</h2>
+    <div class="line"></div>
+
+    <form action="country.html" method="GET" id="countryForm" onsubmit="return redirectToSelectedPage()">
+    <label for="fname">სახელი:</label>
+    <input type="text" id="fname" name="fname" required>
+
+    <label for="lname">გვარი:</label>
+    <input type="text" id="lname" name="lname" required>
+
+    <label for="birthyear">დაბადების წელი:</label>
+    <input type="number" id="birthyear" name="birthyear" required>
+
+    <label for="age">წლოვანება:</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="countrySelect">აირჩიეთ ქვეყანა:</label>
+    <select id="countrySelect" required onchange="redirectToPage()">
+        <option value="">აირჩიეთ ქვეყანა</option>
+        <option value="georgia.html"></option>საქართველო</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="usa.html">აშშ</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="france.html">საფრანგეთი</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="germany.html">გერმანია</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="italy.html">იტალია</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="spain.html">ესპანეთი</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="india.html">ინდოეთი</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="brazil.html">ბრაზილია</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="canada.html">კანადა</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="argentina.html">არგენტინა</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="sweden.html">შვედეთი</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="norway.html">ნორვეგია</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="finland.html">ფინეთი</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="netherlands.html">ნიდერლანდები</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="portugal.html">პორტუგალია</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+        <option value="switzerland.html">შვეიცარია</option>
+        <script>
+            function redirectToSelectedPage() {
+                const select = document.getElementById("countrySelect");
+                const page = select.value;
+                if (page) {
+                    window.location.href = page;
+                }
+                return false;
+            }
+        </script>
+    </select>
+
+    <button type="submit">გაგზავნა</button>
+    </form>
+</main>
+
+<footer>
+    <p>საკონტაქტო ნომერი: +995 599 123 456</p>
+    <p>Facebook: <a href="#" style="color:lightblue;">facebook.com/page</a></p>
+    <p>ლოკაცია: თბილისი, საქართველო</p>
+    <p>ელ. ფოსტა: info@example.com</p>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+<p id="userMessage">Hello There!</p>
+<script>
+    // 1
+    let hobby = prompt("What's your hobby?");
+    alert(hobby);
+    // 2
+    let firstName = prompt("Wat's your name?");
+    let lastName = prompt("What's your lastname?");
+    let fullName = firstName + lastName;
+    alert(fullName)
+    // 3
+    let messages = prompt("Enter message");
+    document.getElementById("userMessage").textContent = messages;
+    // 4
+    let emoji = prompt("Enter yor favorite emoji");
+    alert(emoji);
+    // 5
+    let word = prompt("Enter a word for page title");
+    document.title = word;
+    </script>
+
+    // 6
+    <form id="alertForm">
+        <label for="textInput">Enter something:</label>
+        <input type="text" id="textInput" />
+        <button type="button" onclick="showAlert()">Show Alert</button>
+    </form>
+
+    <form id="colorForm">
+        <label for="colorInput">Choose background color:</label>
+        <input type="color" id="colorInput" />
+        <button type="submit">Set Background</button>
+</form>
+
+    <form id="nameForm">
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName" />
+        <label for="lastName">Last name:</label>
+        <input type="text" id="lastName" />
+        <button type="button" onclick="displayFullName()">Show Full Name</button>
+</form>
+
+<h1 id="fullNameDisplay"></h1>
+
+<script>
+    function showAlert() {
+        let input = document.getElementById("textInput").value;
+        alert(input);
+    }
+
+        document.getElementById("colorForm") 
+        let color = document.getElementById("colorInput").value;
+        document.body.style.backgroundColor = color;
+
+    function displayFullName() {
+        let first = document.getElementById("firstName").value;
+        let last = document.getElementById("lastName").value;
+        document.getElementById("fullNameDisplay").textContent = first + last;
+    }
+</script>
+
+</body>
+</html>
+
+</script>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #fbc2eb, #a6c1ee, #d5fefd, #fef6e4);
+    background-size: 1000% 1000%;
+    animation: backgroundMove 15s ease infinite;
+    }
+
+    @keyframes backgroundMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+    }
+
+    header, footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    }
+
+    main {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+    h1 {
+    text-align: center;
+    }
