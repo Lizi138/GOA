@@ -17,7 +17,7 @@ setTimeout(function() {
 }, 10000);
 
 let colorChangeCount = 0;
-let colors = ["red", "orange", "blue", "yelow", "purple"];
+let colors = ["red", "orange", "blue", "yellow", "purple"];
 
 let interval3 = setInterval(function() {
     document.body.style.backgroundColor = colors[colorChangeCount];
@@ -43,7 +43,7 @@ console.log(numbers[1]);
 numbers[0] = 100;
 console.log(numbers);
 
-let fruits = ["orangde", "banana", "apple"];
+let fruits = ["orange", "banana", "apple"];
 console.log(fruits[0]);
 console.log(fruits[1]);
 console.log(fruits[2]);
