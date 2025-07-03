@@ -1,0 +1,205 @@
+/* საერთო სტილი */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3c2a21, #8b5e3c);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.wave-bg {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: radial-gradient(circle at center, #5c4033 0%, #2e1c12 100%);
+    z-index: -1;
+    animation: waveMove 10s ease-in-out infinite;
+}
+
+@keyframes waveMove {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.04); }
+}
+
+/* ჰედერი და ნავიგაცია */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+.nav {
+    margin-top: 1rem;
+}
+
+.nav-btn {
+    margin: 0 0.5rem;
+    background-color: #d89b5d;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.nav-btn:hover {
+    background-color: #f0b46d;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+}
+
+/* ჰერო სექცია */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    animation: fadeIn 1.5s ease;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background: #d9a05b;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.btn:hover {
+    background: #b87d3c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+}
+
+.highlight {
+    box-shadow: 0 0 15px rgba(255, 206, 122, 0.7);
+}
+
+/* სტატისტიკა */
+.stats {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.counter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffd280;
+}
+
+/* ფუნქციები */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 4rem 2rem;
+}
+
+.feature-box {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* დაჯავშნის ფორმა */
+.booking {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3rem 1rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.booking-form input,
+.booking-form select {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #fff8f0;
+    color: #222;
+}
+
+.booking-form button {
+    cursor: pointer;
+}
+
+/* ფუტერი */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* გალერეა */
+.gallery {
+    padding: 3rem;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    transition: transform 0.4s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* საკონტაქტო */
+.contact {
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-box {
+    background-color: rgba(255,255,255,0.05);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    line-height: 1.8;
+}
