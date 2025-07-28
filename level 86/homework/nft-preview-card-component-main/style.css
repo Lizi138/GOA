@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    background-color: #15273f;
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: left;
+}
+
+#nft-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 0.95rem;
+    color: #8bacda;
+    margin-bottom: 20px;
+}
+
+#price-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+#price {
+    color: #00fff7;
+}
+
+#time {
+    color: #8bacda;
+}
+
+#creator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: #8bacda;
+}
+
+#avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#creator-name {
+    color: white;
+}
+

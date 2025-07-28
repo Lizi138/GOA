@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d0d28;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    max-width: 1000px;
+    background-color: #1c1c3a;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#container:hover {
+    transform: scale(1.02);
+}
+
+#text-section {
+    flex: 1;
+    padding: 40px;
+    min-width: 300px;
+}
+
+#text-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#text-section .highlight {
+    color: #ad62f3;
+}
+
+#text-section p {
+    color: #b6b6c8;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#stats {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#stat {
+    text-align: left;
+}
+
+#stat strong {
+    font-size: 1.3rem;
+    color: white;
+}
+
+#stat span {
+    display: block;
+    font-size: 0.75rem;
+    color: #9c9cac;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+#image-section {
+    flex: 1;
+    background-color: #ad62f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    transition: opacity 0.3s ease;
+}
+
+#image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    border-left: 2px solid rgba(255,255,255,0.05);
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+
+    #image-section,
+    #text-section {
+        min-width: 100%;
+    }
+
+    #text-section {
+        padding: 20px;
+    }
+
+    #stats {
+        gap: 20px;
+        justify-content: space-between;
+    }
+}
