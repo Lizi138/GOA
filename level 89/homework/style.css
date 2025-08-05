@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #555;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3rem 5%;
+    gap: 2rem;
+}
+
+.hero-text {
+    flex: 1 1 400px;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    margin-bottom: 1rem;
+}
+
+.email-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.email-form input {
+    padding: 0.75rem;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #306bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productive {
+    background: #f9f9ff;
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.productive h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.productive .learn-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #306bff;
+    text-decoration: none;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 2rem auto 0;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.cta {
+    background-color: #5751fc;
+    color: white;
+    padding: 3rem 5%;
+    text-align: center;
+}
+
+.cta input {
+    padding: 0.75rem;
+    width: 60%;
+    max-width: 300px;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta button {
+    padding: 0.75rem 1.5rem;
+    background: #0a0a23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+footer {
+    background: #0b0c2a;
+    color: white;
+    padding: 2rem 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}

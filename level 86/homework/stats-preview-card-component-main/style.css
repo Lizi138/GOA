@@ -42,7 +42,7 @@ body {
     margin-bottom: 20px;
 }
 
-#text-section .highlight {
+#text-section #highlight {
     color: #ad62f3;
 }
 
@@ -92,25 +92,5 @@ body {
     object-fit: cover;
     mix-blend-mode: multiply;
     opacity: 0.8;
-    border-left: 2px solid rgba(255,255,255,0.05);
-}
-
-@media (max-width: 768px) {
-    #container {
-        flex-direction: column;
-    }
-
-    #image-section,
-    #text-section {
-        min-width: 100%;
-    }
-
-    #text-section {
-        padding: 20px;
-    }
-
-    #stats {
-        gap: 20px;
-        justify-content: space-between;
-    }
+    background-color: rgba(128, 0, 128, 0.413);
 }

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Young Serif", serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parent {
+    background-color: white;
+    height: 1150px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+#child {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img {
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#simple {
+    font-size: 30px;
+}
+
+#recipe-txt {
+    font-weight: 200;
+    font-size: 16px;
+}
