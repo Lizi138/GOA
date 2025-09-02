@@ -6,7 +6,7 @@ const evenNumbers = numbers.every((elem) => {
 
 console.log(evenNumbers);
 
-// 2
+// 2 
 const students = [
     { name: "Nika", grade: 85 },
     { name: "Ana", grade: 45 },
