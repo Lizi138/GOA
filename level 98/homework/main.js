@@ -169,3 +169,37 @@ console.log(index3);
 const noDelete = ["run", "walk", "write", "cry", "reading"];
 console.log(noDelete.splice(2, 0, "smile"));
 console.log(noDelete);
+
+// 36 (გამორჩენილი 5 დავალება)
+const numbers1 = [10, 20, 30, 40, 50];
+numbers.forEach(num => {
+    console.log(num);
+});
+
+// 37
+const someStrings = ["school", "hospital", "job", "taxi"];
+someStrings.forEach(str => {
+    console.log(str.toUpperCase());
+});
+
+// 38
+let res = 0;
+numbers.forEach(num => {
+    res += num;
+});
+console.log(res);
+
+// 39
+const names = ["Nika", "Deme", "Sandro", "Mariam"];
+names.forEach(name => {
+    console.log("Hello" + name + "!");
+});
+
+// 40
+let odd = 0;
+numbers.forEach(num => {
+    if (num % 2 !== 0) {
+        odd++;
+    }
+});
+console.log(odd);
