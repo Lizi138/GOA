@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    width: 370px;
+    height: 560px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+#jessica {
+    color: white;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+#child {
+    display: flex;
+    flex-direction: column;
+}
+
+#london {
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#txt3 {
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+#btn1 {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+#btn1:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
