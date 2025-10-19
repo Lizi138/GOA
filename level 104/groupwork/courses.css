@@ -1,0 +1,247 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #f4f4f4;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: rgba(0,0,0,0.85);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcc00;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    text-align: center;
+    padding: 120px 20px;
+    color: white;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background: rgba(0,0,0,0.55);
+}
+
+.hero h1, .hero p {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 15px black;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+/* Content Section */
+.content {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease;
+}
+
+.content:hover {
+    transform: scale(1.01);
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    border-left: 6px solid #ffcc00;
+    padding-left: 15px;
+}
+
+.content h3 {
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+.content p, .content li {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+/* Courses List */
+.courses-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.courses-list li {
+    margin: 12px 0;
+    font-size: 1.2rem;
+}
+
+.courses-list li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.courses-list li a:hover {
+    background: rgba(255,204,0,0.2);
+    color: #ffcc00;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255,204,0,0.6);
+}
+
+/* Lists & bullet points */
+.content ul, .content ol {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.content ul li {
+    list-style-type: square;
+}
+
+/* Footer */
+footer {
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+    color: #aaa;
+    font-size: 0.9rem;
+    border-top: 2px solid #ffcc00;
+}
+
+/* Responsive */
+@media (max-width:768px){
+    .hero h1 { font-size: 2.2rem; }
+    .hero p { font-size: 1rem; }
+    header nav ul { gap: 15px; }
+    .content h2 { font-size: 2rem; }
+}
+/* Dropdown Section */
+.courses-dropdown-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.courses-dropdown-section h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.courses-dropdown-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #ffcc00;
+    color: black;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropbtn:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    min-width: 250px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

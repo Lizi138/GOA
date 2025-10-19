@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - E-Learn Platform</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">🌐 E-Learn</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exams.html">Exams</a></li>
+                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Booking Your Spot</h1>
+        <p>Plan your learning journey and reserve your seat in our courses, events, and live workshops.</p>
+    </section>
+
+    <!-- About Booking -->
+    <section class="content">
+        <h2>About Booking</h2>
+        <p>
+            Booking at E-Learn is designed to be simple, transparent, and reliable. Whether you want to join a short 
+            workshop, enroll in a long-term course, or participate in live training events, our booking system ensures 
+            that your seat is guaranteed. We understand the importance of time and planning, and that is why we created 
+            an efficient platform where every student can secure their learning opportunities with ease.
+        </p>
+        <p>
+            Our booking system has been built with flexibility in mind. You can book for individual courses, 
+            package programs, or even reserve consultations with mentors. With just a few clicks, your journey 
+            toward knowledge begins. And because we value your trust, every booking comes with a clear confirmation 
+            message and transparent details about pricing, schedules, and refund policies.
+        </p>
+    </section>
+
+    <!-- How to Book -->
+    <section class="content">
+        <h2>How to Book</h2>
+        <ol>
+            <li>Explore the course catalog and select your preferred program.</li>
+            <li>Click on the “Book Now” button next to the course title.</li>
+            <li>Fill in your details in the booking form.</li>
+            <li>Choose your preferred schedule and confirm availability.</li>
+            <li>Complete payment through our secure system.</li>
+            <li>Receive instant confirmation with all course details.</li>
+        </ol>
+        <p>
+            Booking is open 24/7, and our automated system allows you to register from anywhere in the world. 
+            We recommend booking early for popular courses, as seats are limited.
+        </p>
+    </section>
+
+    <!-- Rules & Policies -->
+    <section class="content">
+        <h2>Rules & Policies</h2>
+        <p>
+            To ensure a fair and consistent booking experience for all, we have established the following policies:
+        </p>
+        <ul>
+            <li>All bookings must be confirmed with full or partial payment.</li>
+            <li>Cancellations made 7 days prior to the course start are eligible for a 100% refund.</li>
+            <li>Late cancellations are eligible for rescheduling but not full refunds.</li>
+            <li>Each participant must use their own personal account for booking.</li>
+            <li>Seats are non-transferable unless officially approved by administration.</li>
+        </ul>
+        <p>
+            These policies are in place to maintain fairness and to help us deliver the best quality education 
+            without disruptions. By booking with us, you agree to follow these rules and respect other learners’ 
+            opportunities.
+        </p>
+    </section>
+
+    <!-- FAQs -->
+    <section class="content">
+        <h2>Frequently Asked Questions</h2>
+        <h3>1. Can I book multiple courses at the same time?</h3>
+        <p>Yes, our system allows multiple bookings. You can add courses to your cart and complete them together.</p>
+        <h3>2. What happens if a course is full?</h3>
+        <p>You will be placed on a waiting list and notified immediately if a spot opens.</p>
+        <h3>3. Can I change my booking date after confirmation?</h3>
+        <p>Yes, rescheduling is allowed up to 48 hours before the course starts.</p>
+        <h3>4. Do you provide discounts for group bookings?</h3>
+        <p>Absolutely! Group discounts are available for organizations, families, or teams booking together.</p>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="content">
+        <h2>Customer Reviews</h2>
+        <p>
+            “Booking with E-Learn was smooth and stress-free. I reserved my seat in less than 5 minutes!” – 
+            <strong>Sarah L.</strong>
+        </p>
+        <p>
+            “The booking system is clear, fast, and very reliable. Highly recommended for anyone serious about learning.” – 
+            <strong>David P.</strong>
+        </p>
+        <p>
+            “I loved how transparent the entire process was. From pricing to scheduling, everything was well organized.” – 
+            <strong>Aisha R.</strong>
+        </p>
+    </section>
+
+        <!-- Booking Form -->
+    <section class="content">
+        <h2>Reserve Your Spot</h2>
+        <form class="booking-form" action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+995 555 123 456" required>
+
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+                <option value="">-- Choose a program --</option>
+                <option value="english">English Language</option>
+                <option value="math">Mathematics</option>
+                <option value="geography">Geography</option>
+                <option value="programming">Programming Basics</option>
+                <option value="design">Web Design</option>
+            </select>
+
+            <label for="date">Preferred Start Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Additional Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write any special requests here..."></textarea>
+
+            <button type="submit" class="btn-book">Book Now</button>
+        </form>
+    </section>
+
+    <script src="booking.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 E-Learn Platform. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
