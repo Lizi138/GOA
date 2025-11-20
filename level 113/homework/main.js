@@ -1,0 +1,1 @@
+// chanaweristvis axlidan unda gveyurebina
