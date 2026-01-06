@@ -1,0 +1,1 @@
+// kargad ver gavige da gakvetilze gavaketet
