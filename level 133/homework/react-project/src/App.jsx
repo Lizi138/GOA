@@ -5,7 +5,7 @@ import { MainContext } from "./context/MainContext";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col items-center gap-6 p-8">
       <Comp1 />
       <Comp2 />
       <Comp3 />

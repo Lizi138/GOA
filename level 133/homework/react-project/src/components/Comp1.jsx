@@ -5,9 +5,11 @@ const Comp1 = () => {
     const { theme } = useContext(MainContext);
 
     return (
-        <h2>
-            {theme}
-        </h2>
+        <div className="w-full max-w-md flex justify-between items-center border p-4 rounded-xl">
+            <h2 className="text-xl font-bold">
+                {theme}
+            </h2>
+        </div>
     );
 };
 
