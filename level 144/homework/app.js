@@ -39,4 +39,3 @@ console.log(buffer)
 const buffer3 = Buffer.from("halou text");
 const gug = buffer3.toString("utf-8");
 console.log(gug);
-
