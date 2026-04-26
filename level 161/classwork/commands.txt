@@ -1,0 +1,6 @@
+use main_db
+db.student_collection.find({tags: {$elemMatch: {$eq: "SBxL"}}})
+
+
+db.cars_collection.findOne({year: 2014}, {year: 1})
+db.cars_collection.findOne({brand: "Honda"}, {brand: 1})
