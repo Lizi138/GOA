@@ -1,0 +1,8 @@
+use main_db
+db.film_collection.updateOne({userRating: {$gt: 9}}, {$set: {title: "gugu gaga"}})
+db.people_collection.insertMany([{age: 12}, {age: 13}, {age: 14}])
+
+db.people_collection.updateOne({imdbRating: 3}, {$push: {guguGaga: "saswori"}})
+db.film_collection.updateOne({userRating: 3}, {$push: {hello: "sigma"}})
+db.people_collection.updateOne({version: 2}, {$set: {rating: "67"}})
+db.people_collection.updateOne({version: 67}, {$set: {user: "lizi"}})

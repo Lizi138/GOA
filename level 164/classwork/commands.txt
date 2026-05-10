@@ -1,0 +1,9 @@
+db.student_collection.deleteOne({price: {$gt: 400}})
+db.student_collection.deleteOne({rating: null})
+db.film_collection.deleteMany({language: "English"})
+db.film_collection.deleteMany({duration: {$lt: 100}})
+
+
+db.people_collection.replaceOne({city: "DJBatumski"}, {language: "qeti egidunashvili"})
+db.student_collection.replaceOne({price: 40}, {name: "gugu gaga"})
+db.film_collection.replaceOne({id: 10}, {duration: 100})

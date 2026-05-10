@@ -1,0 +1,11 @@
+db.people_collection.createIndex({language: 1})
+db.products_collection.createIndex({general: 1})
+db.people_collection.createIndex({version: -1})
+
+
+
+db.employee_collection.find({company: "kompania samocdashvidi"}).explain("executionStats")
+executionTimeMillis: 21,
+db.employee_collection.createIndex({company: 1})
+db.employee_collection.find({company: 1}).explain("executionStats")
+executionTimeMillis: 0,

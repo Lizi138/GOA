@@ -1,0 +1,6 @@
+db.cars_collection.updateMany({model: "Golf"}, {$set: {color: "Black", is_used: false}})
+db.student_collection.updateOne({name: "goa"}, {$set: {rating: 10}}, {upsert: true})
+
+
+db.people_collection.findAndModify({query: {name: "David"}, update: {$set: {age: 2}, new: true}})
+db.people_collection.updateMany({}, {$unset: {age: ""}})
