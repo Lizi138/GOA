@@ -1,0 +1,22 @@
+db.products.find({}, { name: 1, price: 1 })
+db.products.find({}, { dimensions: 0 })
+db.products.find({}, { _id: 0, name: 1, rating: 1 })
+db.products.find({}, { "dimensions.width": 1, "dimensions.height": 1 })
+db.products.find({}, { name: 1, in_stock: 1 })
+
+db.products.find().limit(5)
+db.products.find().limit(10)
+db.products.find().limit(3)
+db.products.find({}, { name: 1, _id: 0 }).limit(7)
+db.products.find().sort({ price: 1 }).limit(5)
+
+db.products.countDocuments()
+db.products.countDocuments({})
+db.products.countDocuments({})
+db.products.countDocuments({})
+
+db.products.find({ rating: { $exists: true } })
+db.products.find({ rating: { $exists: false } })
+db.products.find({ "dimensions.depth": { $exists: true } })
+db.products.find({ tags: { $exists: true } })
+db.products.find({ discount: { $exists: false } })

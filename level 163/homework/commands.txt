@@ -1,0 +1,11 @@
+db.products.updateMany({price:{$gt:400}},{$set:{in_stock:false}})
+db.products.updateMany({price:{$lt:100}},{$set:{discount:10}})
+db.products.updateMany({},{$mul:{price:1.05}})
+db.products.updateMany({category:{$exists:false}},{$set:{category:"general"}})
+db.products.updateMany({rating:null},{$unset:{rating:""}})
+
+db.products.findOneAndUpdate({in_stock:true},{$set:{in_stock:false}},{returnDocument:"after"})
+db.products.findOneAndUpdate({},{$inc:{price:50}},{sort:{price:-1},returnDocument:"after"})
+db.products.updateOne({rating:{$lt:2}},{$set:{status:"low_quality"}})
+db.products.updateOne({},{$pop:{tags:1}})
+db.products.findOneAndUpdate({},{$set:{reviewed:true}},{returnDocument:"before"})
