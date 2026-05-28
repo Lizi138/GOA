@@ -1,0 +1,60 @@
+import mongoose from 'mongoose';
+import validator from 'validator';
+
+const userScheama = new mongoose.Schema(
+    {
+        fullname: {
+            type: String,
+            required: [true, "Full name is required!"],
+            lowercase: true,
+        },
+        email: {
+            type: String,
+            unique: true,
+            lowercase: true,
+            validate: [validator.isEmail, "Please provide a valid email!"],
+        },
+        password: {
+            type: String,
+            required: [true, "Password is required!"],
+            minLength: 6,
+            maxLength: 12,
+            select: false
+        },
+        role: {
+            type: String,
+            enum: ["user", "admin"],
+            default: "user"
+        },
+        isVerified: {
+            type: Bulean,
+            default: false
+        },
+        verificationCode: String
+    },
+    {
+        timestamps: true,
+    }
+);
+
+userScheama.pre("save", async function () {
+    if (!this.isModified("password")) return;
+    this.password = await bcrypt.hash(this.password, 10);
+});
+
+export const verify = catchAsync(async (req, res, next) => {
+    const { code } = req.params;
+    const user = await User.findOne({ verificationCode: code });
+    if (!user) {
+        return next(new AppError("Invalid or expired verification code!", 400));
+    }
+
+    user.isVerified = true;
+    user.verificationCode = undefined;
+    await user.save({validateBeforeSave: false});
+
+    res.status(200).json("Email verified successfully!");
+});
+
+const User = mongoose.model("users", userScheama);
+export default User;
