@@ -1,0 +1,9 @@
+# 1. django -> Python-ის fullstack framework ვებ აპლიკაციების შესაქმნელად, რომელიც შეგვიძლია გამოვიყენოთ როგორც fullstack, ასევე მხოლოდ back end framework-ად
+# 2. fullstack რეჟიმში ვიყენებთ template-ებს და ძირითადად get/post მეთოდებს, ხოლო REST API-სთან ერთად back end-ის სახით გვაქვს get, post, put, patch და delete
+# 3. django-ს უპირატესობაა ჩაშენებული ფუნქციები, უსაფრთხოება და ORM, ხოლო MERN-თან შედარებით ნაკლებად მოქნილია front end-ის მხრივ
+# 4. django იყენებს MVT არქიტექტურას - Model, View, Template
+# 5. model -> ბაზის სტრუქტურა, view - request/response-ის დამუშავება, template -> HTML ინტერფეისი
+# 6. ORM -> ბაზასთან მუშაობა Python-ის ობიექტებით SQL-ის პირდაპირი წერის გარეშე
+# 7. django გამოდგება საშუალო და დიდი პროექტებისთვის, light stack კი პატარა პროექტებისთვის
+# 8. აპლიკაცია არის პროექტის ნაწილი, რომელიც კონკრეტულ ფუნქციას აკონტროლებს (მაგ: users, products)
+# 9. pipenv მართავს virtual environment-სა და dependencies-ს და ამარტივებს პროექტის მართვას
